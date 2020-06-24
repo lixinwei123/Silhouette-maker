@@ -11,6 +11,6 @@ for i in range(img.size[0]): # for every pixel:
             # change to black if found transparent pixel
             pixels[i,j] = (0, 0, 0,255)
         else:
-            #change to white for now
+            #change to white for nows
             pixels[i,j] = (254,254,254,255)
 img.show()
